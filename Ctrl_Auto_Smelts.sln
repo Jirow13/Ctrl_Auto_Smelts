@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ctrl_Auto_Smelts", "Ctrl_Auto_Smelts\Ctrl_Auto_Smelts.csproj", "{04D5C8B8-C729-4DE6-B6DC-39C405A3E105}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04D5C8B8-C729-4DE6-B6DC-39C405A3E105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D5C8B8-C729-4DE6-B6DC-39C405A3E105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D5C8B8-C729-4DE6-B6DC-39C405A3E105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D5C8B8-C729-4DE6-B6DC-39C405A3E105}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C452B887-A96E-4316-84DF-EE5461672745}
+	EndGlobalSection
+EndGlobal
