@@ -1,15 +1,18 @@
 ﻿<Module>
-  <Name value="My Example Mod"/>
+  <Name value="Ctrl Auto Smelts"/>
   <Id value="Ctrl_Auto_Smelts"/>
   <Version value="v1.0.0"/>
+  <DefaultModule value="false"/>
   <SingleplayerModule value="true"/>
   <MultiplayerModule value="false"/>
   <Official value="false" />
   <DependedModules>
-    <DependedModule Id="Native"/>
-    <DependedModule Id="SandBoxCore"/>
-    <DependedModule Id="Sandbox"/>
-    <DependedModule Id="StoryMode" />
+	  <DependedModule Id="Native"/>
+	  <DependedModule Id="SandBoxCore"/>
+	  <DependedModule Id="Sandbox"/>
+	  <DependedModule Id="CustomBattle"/>
+	  <DependedModule Id="StoryMode"/>
+	  <DependedModule Id="Bannerlord.Harmony" />
   </DependedModules>
   <SubModules>
     <SubModule>

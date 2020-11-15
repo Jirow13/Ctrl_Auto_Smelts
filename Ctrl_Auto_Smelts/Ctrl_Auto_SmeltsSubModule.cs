@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using TaleWorlds.MountAndBlade;
-using System.Linq;
-using System.Text;
 using HarmonyLib;
 using System.Windows;
 using TaleWorlds.CampaignSystem.ViewModelCollection.Craft.Smelting;
@@ -45,7 +42,7 @@ namespace Ctrl_Auto_Smelts {
             }
             if (____currentSelectedItem != null && ____smithingBehavior != null && Input.IsKeyDown(InputKey.LeftControl)) {
                 repeating = true;
-                int maxfailsafe = 100;
+                int maxfailsafe = 50;
                 while (maxfailsafe-- > 0 && ____currentSelectedItem != null && ____smithingBehavior != null) {
                     __instance.SmeltSelectedItems(currentCraftingHero);
                 }
@@ -63,7 +60,7 @@ namespace Ctrl_Auto_Smelts {
             }
             if (____currentSelectedAction != null && Input.IsKeyDown(InputKey.LeftControl)) {
                 repeating = true;
-                int maxfailsafe = 100;
+                int maxfailsafe = 50;
                 while (maxfailsafe-- > 0 && ____currentSelectedAction != null) {
                     __instance.ExecuteSelectedRefinement(currentCraftingHero);
                 }
